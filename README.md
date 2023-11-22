@@ -14,7 +14,7 @@ Please install '[comment-translate](https://github.com/intellism/vscode-comment-
 ## Use
 1. After installation, call the "Change translation source" command of "Comment Translate"
     ![change](./image/change.png)
-2. Check "deeplx translate" to configure the plugin API (and token if required)
+2. Check "DeepLX Translate" to configure the plugin API (and token if required)
     ![select](./image/select.png)
 3. Directly use the "Comment Translate" interactive mode to translate the corresponding text
 
@@ -24,6 +24,7 @@ This extension contributes the following settings:
 
 * `deeplxTranslate.apiPath`: DeepLX translation service API
 * `deeplxTranslate.accessToken`: The token used during translation (if required by the translation service)
+* `deeplxTranslate.ignorePattern`: Ignore regular expressions
 
 ## Known Issues
 
