@@ -35,10 +35,10 @@ interface DeepLXTranslateOption {
 }
 
 interface Response {
-    id: number;
+    id?: number;
     code: number;
     data: string;
-    alternatives: string[];
+    alternatives?: string[];
 }
 
 export class DeepLXTranslate implements ITranslate {
