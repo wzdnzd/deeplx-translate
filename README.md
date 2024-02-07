@@ -9,7 +9,12 @@ The plugin provides a translation source for the ‘comment-translate’ plugin.
 
 ## Requirements
 
-Please install '[comment-translate](https://github.com/intellism/vscode-comment-translate)' to use
+Please install [comment-translate](https://github.com/intellism/vscode-comment-translate) to use
+
+## Install
+1. Download the plugin from the [Release Page](https://github.com/wzdnzd/deeplx-translate/releases)
+2. Install from VSIX: `Extensions` -> `...` -> `Install from VSIX...`
+3. Select the downloaded file and install it
 
 ## Use
 1. After installation, call the "Change translation source" command of "Comment Translate"
@@ -17,6 +22,10 @@ Please install '[comment-translate](https://github.com/intellism/vscode-comment-
 2. Check "DeepLX Translate" to configure the plugin API (and token if required)
     ![select](./image/select.png)
 3. Directly use the "Comment Translate" interactive mode to translate the corresponding text
+
+## Public DeepLX API
++ `https://api.deeplx.org/translate`
++ `https://deeplx.aivvm.com/translate`
 
 ## Extension Settings
 
