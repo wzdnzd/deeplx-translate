@@ -25,7 +25,6 @@ Please install [comment-translate](https://github.com/intellism/vscode-comment-t
 
 ## Public DeepLX API
 + `https://api.deeplx.org/translate`
-+ `https://deeplx.aivvm.com/translate`
 
 ## Extension Settings
 
